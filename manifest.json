@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Adaptive Key Helper",
+  "version": "0.1.0",
+  "description": "Helps when a modifier key is stuck or unreliable.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
